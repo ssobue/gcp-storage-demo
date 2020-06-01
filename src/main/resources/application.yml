@@ -1,0 +1,15 @@
+spring:
+  main:
+    banner-mode: off
+  profiles:
+    active: dev
+
+logging:
+  level:
+    org.springframework: warn
+
+token:
+  client-id: ''
+  client-secret: ''
+  refresh-token: ''
+gcp-bucket: ''
